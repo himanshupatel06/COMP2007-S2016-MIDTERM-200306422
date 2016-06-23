@@ -18,7 +18,7 @@
                 <div class="form-group">
                     
                     
-                           <asp:CheckBox ID="Completed" runat="server" />
+                           <asp:CheckBox ID="Completed" runat="server" OnCheckedChanged="Completed_CheckedChanged" />
                          
                        
                     <label class="control-label" for="Completed">Completed</label>

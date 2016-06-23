@@ -29,7 +29,7 @@
                         <asp:BoundField DataField="TodoNotes" HeaderText="Todo Notes" Visible="true" />
                         <asp:TemplateField>
                          <ItemTemplate>
-                           <asp:CheckBox ID="Completed" HeaderText="Completed" runat="server" />
+                           <asp:CheckBox ID="Completed" HeaderText="Completed"  runat="server" />
                          </ItemTemplate>
                         </asp:TemplateField>
                         <asp:HyperLinkField HeaderText="Edit" Text="<i class='fa fa-pencil-square-o fa-lg'></i> Edit" 
