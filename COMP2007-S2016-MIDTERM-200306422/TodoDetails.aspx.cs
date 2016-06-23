@@ -36,7 +36,7 @@ namespace COMP2007_S2016_MIDTERM_200306422
                 {
                     TodoNameTextBox.Text = updatedList.TodoName;
                     NotesTextBox.Text = updatedList.TodoNotes;
-                    Completed.Checked = Convert.ToBoolean(updatedList.Completed.Value);
+                    Completed.Checked = Convert.ToBoolean(updatedList.Completed);
                 }
             }
         }
@@ -73,8 +73,8 @@ namespace COMP2007_S2016_MIDTERM_200306422
                 //add new records
                 newTodo.TodoName = TodoNameTextBox.Text;
                 newTodo.TodoNotes = NotesTextBox.Text;
-                newTodo.Completed = Convert.ToBoolean(Completed.Checked.);
-
+                Completed.Checked = Convert.ToBoolean(newTodo.Completed);
+               
                 // use LINQ to ADO.NET to add / insert new Todo into the database
 
                 if (TodoID == 0)

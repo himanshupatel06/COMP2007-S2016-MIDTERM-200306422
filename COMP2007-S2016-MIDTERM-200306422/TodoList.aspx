@@ -1,4 +1,10 @@
-﻿<%@ Page Title="Todo List" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoList.aspx.cs" Inherits="COMP2007_S2016_MIDTERM_200306422.TodoList" %>
+﻿<%--
+    Name: Himanshu Patel
+    Student No: 200306422
+    Date: 23-06-2016
+    PageDetail: TodoList.aspx which display gridview
+    --%>
+<%@ Page Title="Todo List" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoList.aspx.cs" Inherits="COMP2007_S2016_MIDTERM_200306422.TodoList" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
      <div class="container">

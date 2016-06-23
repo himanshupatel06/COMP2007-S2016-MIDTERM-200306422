@@ -1,4 +1,10 @@
-﻿<%@ Page Title="Todo Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoDetails.aspx.cs" Inherits="COMP2007_S2016_MIDTERM_200306422.TodoDetails" %>
+﻿<%--
+    Name: Himanshu Patel
+    Student No: 200306422
+    Date: 23-06-2016
+    PageDetail: TodoDetails.aspx which display Details
+    --%>
+<%@ Page Title="Todo Details" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TodoDetails.aspx.cs" Inherits="COMP2007_S2016_MIDTERM_200306422.TodoDetails" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
      
     <div class="container">
@@ -18,7 +24,7 @@
                 <div class="form-group">
                     
                     
-                           <asp:CheckBox ID="Completed" runat="server" OnCheckedChanged="Completed_CheckedChanged" />
+                           <asp:CheckBox ID="Completed" runat="server" />
                          
                        
                     <label class="control-label" for="Completed">Completed</label>
